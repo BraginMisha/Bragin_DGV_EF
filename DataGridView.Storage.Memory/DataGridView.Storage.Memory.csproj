@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+<BuildPackage>true</BuildPackage>    
+    <PackageId>Diler.DataGridView.Storage.Memory</PackageId>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+    <Version>1.0.2</Version>
+    <Authors>Diler</Authors>
+    <Company>Diler company</Company>
+    <Description>This package will help to managing product storage</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Storage Memory</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataGridView.Contracts\DataGridView.Contracts.csproj">
+			<ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+			<IncludeAssets>DataGridView.Contracts.dll</IncludeAssets>
+		</ProjectReference>
+  </ItemGroup>
+
+</Project>

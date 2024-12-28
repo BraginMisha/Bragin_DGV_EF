@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView", "DataGridView\DataGridView.csproj", "{91436EC1-3063-431A-A276-79C2F6A2C938}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGridView.Storage.Memory", "DataGridView.Storage.Memory\DataGridView.Storage.Memory.csproj", "{447699F4-8D1E-4057-AA37-0F9AD1295A69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGridView.ProductManager", "DataGridView.ProductManager\DataGridView.ProductManager.csproj", "{D6F6601F-9868-4BC3-8C19-B1B11EC2079B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGridView.Contracts", "DataGridView.Contracts\DataGridView.Contracts.csproj", "{6A7D09FE-E6D4-41B5-8137-670BDD3D935F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView.Storage.Memory.Tests", "DataGridView.Storage.Memory.Tests\DataGridView.Storage.Memory.Tests.csproj", "{B8FE3177-1E34-45F8-BE61-90D68CD578BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView.ProductManager.Tests", "DataGridView.ProductManager.Tests\DataGridView.ProductManager.Tests.csproj", "{5B192DE8-3D2A-4FD2-989C-5ECB7AFCC211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView.Storage.DB", "DataGridView.Storage.DB\DataGridView.Storage.DB.csproj", "{9CFAC4C9-B624-4D71-8C13-8D3352FD5054}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91436EC1-3063-431A-A276-79C2F6A2C938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91436EC1-3063-431A-A276-79C2F6A2C938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91436EC1-3063-431A-A276-79C2F6A2C938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91436EC1-3063-431A-A276-79C2F6A2C938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447699F4-8D1E-4057-AA37-0F9AD1295A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447699F4-8D1E-4057-AA37-0F9AD1295A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447699F4-8D1E-4057-AA37-0F9AD1295A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447699F4-8D1E-4057-AA37-0F9AD1295A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F6601F-9868-4BC3-8C19-B1B11EC2079B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F6601F-9868-4BC3-8C19-B1B11EC2079B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F6601F-9868-4BC3-8C19-B1B11EC2079B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F6601F-9868-4BC3-8C19-B1B11EC2079B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7D09FE-E6D4-41B5-8137-670BDD3D935F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7D09FE-E6D4-41B5-8137-670BDD3D935F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7D09FE-E6D4-41B5-8137-670BDD3D935F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7D09FE-E6D4-41B5-8137-670BDD3D935F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FE3177-1E34-45F8-BE61-90D68CD578BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FE3177-1E34-45F8-BE61-90D68CD578BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FE3177-1E34-45F8-BE61-90D68CD578BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FE3177-1E34-45F8-BE61-90D68CD578BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B192DE8-3D2A-4FD2-989C-5ECB7AFCC211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B192DE8-3D2A-4FD2-989C-5ECB7AFCC211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B192DE8-3D2A-4FD2-989C-5ECB7AFCC211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B192DE8-3D2A-4FD2-989C-5ECB7AFCC211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFAC4C9-B624-4D71-8C13-8D3352FD5054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFAC4C9-B624-4D71-8C13-8D3352FD5054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFAC4C9-B624-4D71-8C13-8D3352FD5054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFAC4C9-B624-4D71-8C13-8D3352FD5054}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F463376F-C4B0-4339-8869-59FDBA968372}
+	EndGlobalSection
+EndGlobal
